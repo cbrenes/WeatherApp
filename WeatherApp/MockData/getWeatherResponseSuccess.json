@@ -1,0 +1,43 @@
+{
+  "coord": {
+    "lon": -118.4912,
+    "lat": 34.0195
+  },
+  "weather": [
+    {
+      "id": 800,
+      "main": "Clear",
+      "description": "clear sky",
+      "icon": "10d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 289.61,
+    "feels_like": 288.54,
+    "temp_min": 287.56,
+    "temp_max": 292.45,
+    "pressure": 1016,
+    "humidity": 47
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 8.75,
+    "deg": 270
+  },
+  "clouds": {
+    "all": 0
+  },
+  "dt": 1649814164,
+  "sys": {
+    "type": 1,
+    "id": 5872,
+    "country": "US",
+    "sunrise": 1649769987,
+    "sunset": 1649816550
+  },
+  "timezone": -25200,
+  "id": 5393212,
+  "name": "Heredia",
+  "cod": 200
+}

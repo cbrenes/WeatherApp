@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (5.5.0)
+  - Keys (1.0.1)
+  - Mocker (2.5.5)
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
+  - SDWebImageMockPlugin (0.1.0):
+    - SDWebImage (~> 5.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.5)
+  - Keys (from `Pods/CocoaPodsKeys`)
+  - Mocker (~> 2.5.4)
+  - SDWebImage (~> 5.0)
+  - SDWebImageMockPlugin
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Mocker
+    - SDWebImage
+    - SDWebImageMockPlugin
+
+EXTERNAL SOURCES:
+  Keys:
+    :path: Pods/CocoaPodsKeys
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  Keys: a576f4c9c1c641ca913a959a9c62ed3f215a8de9
+  Mocker: 8c731a8104962f246cadf2b02556218e9edc1390
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  SDWebImageMockPlugin: 2cddc58639ba10dd907bf194f1b705d7308dcc2d
+
+PODFILE CHECKSUM: 4398056b0b74ef53956b7d2c65403d842d646129
+
+COCOAPODS: 1.11.3
