@@ -1,5 +1,5 @@
 # WeatherApp
-This project shows an example of a clean architecture and best practices to create an app
+This project shows an example of the [clean swift architecture](https://clean-swift.com) and best practices to create an app
 
 The following image shows the requirements:
 
