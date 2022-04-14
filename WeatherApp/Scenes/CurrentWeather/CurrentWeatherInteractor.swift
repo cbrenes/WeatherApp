@@ -36,7 +36,7 @@ class CurrentWeatherInteractor: CurrentWeatherBusinessLogic, CurrentWeatherDataS
         locationWorker?.getCurrentLocation { [weak self] locationResult in
             switch locationResult {
             case .success(let coordinates):
-                self?.apiWorker.fetchWeatherForCurrentLocation(coordinates: coordinates, completion: { apiResult in
+                self?.apiWorker.fetchWeatherForCurrentLocation(coordinates: coordinates, completion: { [weak self] apiResult in
                     self?.presenter?.presentUIInformation(response: CurrentWeather.UIInformation.Response(result: apiResult))
                 })
             case .failure(let error):
